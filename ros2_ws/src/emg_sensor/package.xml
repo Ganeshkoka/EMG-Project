@@ -1,0 +1,11 @@
+<package format="3">
+  <name>emg_sensor</name>
+  <version>0.1.0</version>
+  <description>nRF52 BLE bridge that publishes EMG data on /emg_raw</description>
+
+  <maintainer email="you@example.com">Ganesh Koka</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+</package>
