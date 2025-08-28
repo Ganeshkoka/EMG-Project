@@ -1,0 +1,14 @@
+# VS Code files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+*.vc.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
