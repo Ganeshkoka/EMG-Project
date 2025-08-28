@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <package format="3">
   <name>emg_sensor</name>
   <version>0.1.0</version>
@@ -6,6 +7,15 @@
   <maintainer email="you@example.com">Ganesh Koka</maintainer>
   <license>MIT</license>
 
+  <buildtool_depend>ament_python</buildtool_depend>
+
   <exec_depend>rclpy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
+
+  <!-- You normally don't declare python3-pip as a runtime dep -->
+  <!-- Add other Python libs here only if they are ROS deps, not pip itself -->
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
 </package>

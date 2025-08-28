@@ -6,7 +6,7 @@ from bleak import BleakClient, BleakScanner
 
 ADDR    = "F7:DC:B8:38:6D:F6"
 UART_RX = "6e400003-b5a3-f393-e0a9-e50e24dcca9e"
-ADAPTER = "hci1" # You might need to change this to "hci0"
+ADAPTER = "hci1"
 
 class BLEHandler:
     """
@@ -79,6 +79,6 @@ async def main(args=None):
 
 
 if __name__ == '__main__':
-    # We need to import threading for this to work
+    # need to import threading for this to work
     import threading
     asyncio.run(main())
