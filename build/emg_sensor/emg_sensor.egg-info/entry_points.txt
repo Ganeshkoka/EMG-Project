@@ -1,0 +1,5 @@
+[console_scripts]
+ble_bridge = scripts.ble_bridge:main
+command_publisher = scripts.command_publisher:main
+hand_controller = scripts.hand_controller:main
+

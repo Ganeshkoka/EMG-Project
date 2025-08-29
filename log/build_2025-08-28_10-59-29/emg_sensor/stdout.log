@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing emg_sensor.egg-info/PKG-INFO
+writing dependency_links to emg_sensor.egg-info/dependency_links.txt
+writing entry points to emg_sensor.egg-info/entry_points.txt
+writing requirements to emg_sensor.egg-info/requires.txt
+writing top-level names to emg_sensor.egg-info/top_level.txt
+reading manifest file 'emg_sensor.egg-info/SOURCES.txt'
+writing manifest file 'emg_sensor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ganeshkoka/Github/EMG-Project/install/emg_sensor/lib/python3.10/site-packages/emg-sensor.egg-link (link to .)
+Installing ble_bridge script to /home/ganeshkoka/Github/EMG-Project/install/emg_sensor/lib/emg_sensor
+Installing command_publisher script to /home/ganeshkoka/Github/EMG-Project/install/emg_sensor/lib/emg_sensor
+Installing hand_controller script to /home/ganeshkoka/Github/EMG-Project/install/emg_sensor/lib/emg_sensor
+
+Installed /home/ganeshkoka/Github/EMG-Project/build/emg_sensor
+running symlink_data

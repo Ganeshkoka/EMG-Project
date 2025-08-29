@@ -46,7 +46,8 @@ def main(args=None):
         node.get_logger().info("Shutting down...")
     finally:
         node.destroy_node() #destroy node object
-        rclpy.shutdown() #shutdown ROS2
+        if rclpy.ok():
+            rclpy.shutdown()
 
 if __name__ == "__main__": #only run if this file is the main file run directly, not if it is imported as a module
     main()
